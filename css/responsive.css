@@ -42,5 +42,6 @@
     .why-us{
         background-color:rgb(34, 34, 34) ;
         padding:3rem 1rem ;
+        margin-bottom: 0;
     }
 }
