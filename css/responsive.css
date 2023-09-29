@@ -1,20 +1,46 @@
 @media screen and (max-width: 1024px) {
-    .siteheader{
+    .site-header{
         width: 100%;   
     }
 
     .container{
         max-width: 100%;
     }
-    
+    .row{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and ( max-width: 768px) {
-    .siteheader{
+    .site-header{
         width: 100%;   
     }
 
     .container{
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .col{
+        min-width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .steps{
+        margin-bottom: 0;
+    }
+    .col-left img{
+        margin-bottom: 4rem;
+    }
+    .why-us{
+        background-color:rgb(34, 34, 34) ;
+        padding:3rem 1rem ;
     }
 }
